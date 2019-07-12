@@ -1,0 +1,10 @@
+::-webkit-input-placeholder{
+color: #c5c5c5;
+}
+::-moz-placeholder{
+color: #c5c5c5;
+opacity: 1;/*这里之前是没有的，发现问题后才加上去的*/
+}
+:-ms-input-placeholder{
+color: #c5c5c5;
+}
