@@ -99,6 +99,7 @@ ul {
 /* header */
 .header {
 	height: 100px;
+	margin-bottom: 19px;
 }
 .header-logo {
 	float: left;
@@ -210,10 +211,13 @@ ul {
 }
 
 /*seckill modules*/
-
+.seckill {
+	background-color: #f5f5f5;
+	/* border: 1px solid black; */
+}
 
 .seckill-head {
-	margin: 19px 0 0 0;
+	margin: 0 0 0 0;
 	height: 170px;
 	background: url(../img/seckill-head.png) no-repeat 50% 0;
 	/* border: 1px solid black; */
@@ -222,7 +226,7 @@ ul {
 .seckill-container {
 	width: 1226px;
 	margin: 0 auto;
-	background: #f5f5f5;
+	/* background-color: #f5f5f5; */
 	/* border: 1px solid black; */
 }
 
@@ -258,17 +262,52 @@ ul {
 }
 
 .seckill-goods {
-	/* width: 100%; */
-	border: 1px solid black;
+	width: 100%;
+	/* border: 1px solid black; */
 }
 
+.seckill-goods ul {
+	margin-right: -13px;
+}
 .seckill-goods li {
 	float: left;
 	width: 400px;
 	height: 190px;
+	margin-right: 13px;
+	margin-bottom: 13px;
 	background-color: #fff;
+	/* border: 1px solid black; */
+}
+
+.seckill-goods-bg {
+	float: left;
+	width: 190px;
+	height: 190px;
+	/* border: 1px solid black; */
+}
+
+.seckill-goods-bg img {
+	width: 100%;
+}
+
+.seckill-goods-details {
+	float: left;
+	width: 180px;
+	height: 186px;
 	border: 1px solid black;
 }
+
+.sgd-title {
+	
+}
+.seckill-notice {
+	color: rgba(0,0,0,0.27);
+	margin: 100px auto 0;
+	padding-bottom: 35px;
+	font-size: 12px;
+}
+
+
 
 
 
