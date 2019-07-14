@@ -1,6 +1,7 @@
 body,ul,li {
 	margin:	0;
 	padding: 0;
+	font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
 }
 a {
 	text-decoration: none;
@@ -212,6 +213,8 @@ ul {
 
 /*seckill modules*/
 .seckill {
+	width: 100%;
+	margin: 0 auto;
 	background-color: #f5f5f5;
 	/* border: 1px solid black; */
 }
@@ -255,9 +258,12 @@ ul {
 }
 
 .seckill-nav li em {
+	display: inline-block;
 	font-style: normal;
 	font-size: 18px;
 	line-height: 1;
+	margin-top: -3px;
+	margin-right: 10px;
 	vertical-align: middle;
 }
 
@@ -291,14 +297,64 @@ ul {
 }
 
 .seckill-goods-details {
-	float: left;
 	width: 180px;
 	height: 186px;
-	border: 1px solid black;
+	padding-top: 10px;
+	margin-left: 210px;
+	/* border: 1px solid black; */
 }
 
 .sgd-title {
-	
+	font-size: 16px;
+	color: #333;
+	overflow: hidden;
+	height: 16px;
+	line-height: 16px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	margin-bottom: 5px;
+}
+
+.sgd-des {
+	font-size: 12px;
+	color: rgba(0,0,0,0.54);
+	height: 32px;
+	line-height: 16px;
+	margin-top: 7px;
+	width: 100%;
+}
+
+.sgd-price {
+	color: #f1393a;
+	font-size: 16px;
+	line-height: 1;
+	margin-top: 14px;
+}
+
+.sgd-price del {
+	font-size: 12px;
+	color: #999;
+	margin-left: 10px;
+}
+
+.sgd-btn {
+	display: block;
+	height: 30px;
+	width: 120px;
+	background-color: #f1393a;
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+	line-height: 30px;
+	margin: 19px 0 0;
+	/* border: 1px solid black; */
+}
+
+.sgd-reminder {
+	font-size: 12px;
+	color: rgba(0,0,0,0.54);
+	line-height: 1;
+	margin-top: 10px;
 }
 .seckill-notice {
 	color: rgba(0,0,0,0.27);
