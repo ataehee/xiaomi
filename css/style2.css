@@ -234,17 +234,22 @@ ul {
 }
 
 .seckill-nav {
+	width: 1226px;
 	height: 68px;
 	margin-top: -68px;
 	margin-bottom: 28px;
 	/* border: 1px solid black; */
 }
 
+.seckill-nav-fixed {
+	position: fixed;
+	top: 68px;
+}
 .seckill-nav ul {
 	background: #414141;
 }
 
-.active {
+.seckill-nav .active {
 	background-color: #f1393a;
 }
 .seckill-nav li {
@@ -255,6 +260,8 @@ ul {
 	line-height: 68px;
 	vertical-align: middle;
 	text-align: center;
+	cursor: pointer;
+	/* cursor: pointer could change the default mouse pointer to a hand pointer */
 }
 
 .seckill-nav li em {
@@ -272,7 +279,12 @@ ul {
 	/* border: 1px solid black; */
 }
 
+.seckill-goods .active {
+	display: block;
+	background-color: none;
+}
 .seckill-goods ul {
+	display: none;
 	margin-right: -13px;
 }
 .seckill-goods li {
